@@ -1,15 +1,12 @@
 
 const mc = require('minecraft-protocol');
-console.log('mineflayer:', require('mineflayer/package.json').version);
-console.log('minecraft-data:', require('minecraft-data/package.json').version);
-console.log('Versiones soportadas:', mc.supportedVersions.join(', '));
 
 const CONFIG = {
     host: 'tuntun2.aternos.me',
     port: 29306,
     username: 'tung',
     password: '',            // si el servidor pide /login, ponla aquí
-    version: false,          // autodetecta; si falla, pon por ejemplo '1.21.4'
+    version: 26.2,          // autodetecta; si falla, pon por ejemplo '1.21.4'
     reconnectDelay: 30000
 };
 
