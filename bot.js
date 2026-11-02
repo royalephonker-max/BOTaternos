@@ -1,5 +1,4 @@
-
-const mc = require('minecraft-protocol');
+const mineflayer = require('mineflayer');
 
 const CONFIG = {
     host: 'tuntun2.aternos.me',
