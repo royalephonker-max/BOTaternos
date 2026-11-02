@@ -1,5 +1,8 @@
 
-const mineflayer = require('mineflayer');
+const mc = require('minecraft-protocol');
+console.log('mineflayer:', require('mineflayer/package.json').version);
+console.log('minecraft-data:', require('minecraft-data/package.json').version);
+console.log('Versiones soportadas:', mc.supportedVersions.join(', '));
 
 const CONFIG = {
     host: 'tuntun2.aternos.me',
