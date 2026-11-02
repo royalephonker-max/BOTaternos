@@ -5,7 +5,7 @@ const CONFIG = {
     port: 29306,
     username: 'tung',
     password: '',            // si el servidor pide /login, ponla aquí
-    version: 26.2,          // autodetecta; si falla, pon por ejemplo '1.21.4'
+    version: 1.21.4,          // autodetecta; si falla, pon por ejemplo '1.21.4'
     reconnectDelay: 30000
 };
 
